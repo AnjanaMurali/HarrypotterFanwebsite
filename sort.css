@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+body {
+	background-image: url("images/hogwarts2.jpg");
+}
+.wrapper {
+  font-family: 'Harry Potter', sans-serif;
+  width: 630px;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 0px;
+}
+
+#quiz {
+  padding-bottom: 60px;
+  width: 100%;
+  border-radius: 6%;
+  color: #fff;
+  text-align: center;
+  background-color:#bf6000;
+  border: 9px outset; 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.39), 0 6px 6px rgba(0,0,0,0.33);
+}
+
+.questions {
+  font-family: 'Harry Potter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  color:black;
+}
+
+.answers div {
+  border-radius:10%;
+  display:block;
+  color:black;
+  background: olive;
+  padding: 10px 20px 0 0;
+  font-size: 16px;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.answers div:hover {
+  cursor: pointer;
+  background:#cc0000;
+}
+  
+.answers {
+  font-family: 'Harry Potter', sans-serif;
+  margin:0 auto;
+}

@@ -1,0 +1,239 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.imageplace{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.imageplace  img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.Sly, .Huff, .gryffindor, .Rav{
+    font-family: 'Harry Potter', sans-serif;
+}
+.Rav .Rav-content,
+.gryffindor .gryffindor-content,
+.Sly .Sly-content,
+.Huff .Huff-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/* gryffindor page styling */
+.gryffindor {
+    color:#fff;
+    background: #111;
+}
+
+
+
+
+.gryffindor .title::before,
+.Slytherin .title::before{
+    background: #fff;
+}
+.gryffindor .title::after{
+    background: #111;
+    content: "what i provide";
+}
+.gryffindor .gryffindor-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 35px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.gryffindor .gryffindor-content .card:hover{
+    background: crimson;
+}
+.gryffindor .gryffindor-content .card .box{
+    transition: all 0.3s ease;
+}
+.gryffindor .gryffindor-content .card:hover .box{
+    transform: scale(1.05);
+}
+.gryffindor .gryffindor-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.gryffindor .gryffindor-content .card:hover i{
+    color: #fff;
+}
+.gryffindor .gryffindor-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+
+/* Sly page styling */
+.Sly {
+    color:#fff;
+    background-color: #808000;
+}
+
+
+.Sly .title::before{
+    background: #fff;
+}
+.Sly .title::afterr{
+    background: #111;
+    content: "what i provide";
+}
+.Sly .Sly-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 35px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Sly .Sly-content .card:hover{
+    background: #006400;
+}
+.Sly .Sly-content .card .box{
+    transition: all 0.3s ease;
+}
+.Sly .Sly-content .card:hover .box{
+    transform: scale(1.05);
+}
+.Sly .Sly-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.Sly .Sly-content .card:hover i{
+    color: #fff;
+}
+.Sly .Sly-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+/* Huff page styling */
+.Huff {
+    color:#fff;
+    background: #bbbb00;
+}
+
+
+.Huff .title::before
+{
+    background: #fff;
+}
+.Huff .title::after
+{
+    background: #111;
+    content: "what i provide";
+}
+.Huff .Huff-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 35px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Huff .Huff-content .card:hover{
+    background: #d5d500;
+}
+.Huff .Huff-content .card .box{
+    transition: all 0.3s ease;
+}
+.Huff .Huff-content .card:hover .box{
+    transform: scale(1.05);
+}
+.Huff .Huff-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.Huff .Huff-content .card:hover i{
+    color: olive;
+}
+.Huff .Huff-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+/* Rav page styling */
+.Rav {
+    color:#fff;
+    background: #00cccc;
+}
+
+
+.Rav .title::before{
+    background: #2b88d5;
+}
+.Rav .title::after{
+    background: #111;
+    content: "what i provide";
+}
+.Rav .Rav-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 35px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Rav .Rav-content .card:hover{
+    background: #33918e;
+}
+.Rav .Rav-content .card .box{
+    transition: all 0.3s ease;
+}
+.Rav .Rav-content .card:hover .box{
+    transform: scale(1.05);
+}
+.Rav .Rav-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.Rav .Rav-content .card:hover i{
+    color: #fff;
+}
+.Rav .Rav-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+ 
+    .gryffindor .gryffindor-content .card{
+        width: 100%;
+    }
+        .Sly .Sly-content .card{
+        width: 100%;
+    }
+     .Rav .Rav-content .card{
+        width: 100%;
+    }
+      .Huff .Huff-content .card{
+        width: 100%;
+    }
+}
